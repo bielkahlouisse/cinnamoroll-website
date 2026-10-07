@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Cinnamoroll fun facts and interactive quiz."><title>Fun Facts & Quiz | CinnaCloud</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="site-header"><nav class="navbar" aria-label="Main navigation"><a class="logo" href="index.html">Cinna<span>Cloud</span> ☁</a><button class="menu-btn" aria-expanded="false" aria-controls="navLinks">Menu</button><ul class="nav-links" id="navLinks"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="friends.html">Friends</a></li><li><a href="gallery.html">Gallery</a></li><li><a class="active" href="funfacts.html">Fun Facts</a></li></ul></nav></header>
+<main>
+<section class="container"><div class="section-heading"><span class="eyebrow">Cloudy trivia</span><h1>Fun <span>Facts</span></h1><p>Little details that make Cinnamoroll extra lovable.</p></div>
+<div class="grid grid-2">
+<article class="card pink"><div class="icon">01</div><h3>The name has a reason</h3><p>His tail curls like a cinnamon roll, which is why he is called Cinnamoroll.</p></article>
+<article class="card blue"><div class="icon">02</div><h3>Those ears can fly</h3><p>Cinnamoroll can use his large ears to fly through the air.</p></article>
+<article class="card"><div class="icon">03</div><h3>He has a café home</h3><p>Cafe Cinnamon is central to his character world and his role as the café's official mascot.</p></article>
+<article class="card pink"><div class="icon">04</div><h3>He is a gentle character</h3><p>Sanrio describes him as shy but friendly, giving him a soft and approachable personality.</p></article>
+</div></section>
+<section class="container">
+<div class="section-heading"><span class="eyebrow">Interactive activity</span><h2>How well do you know Cinnamoroll?</h2><p>Choose one answer for each question, then press Check Score.</p></div>
+<form class="quiz" id="quizForm">
+<div class="question"><h3>1. What year did Cinnamoroll debut?</h3><label><input type="radio" name="q1" value="1999"> 1999</label><label><input type="radio" name="q1" value="2001"> 2001</label><label><input type="radio" name="q1" value="2005"> 2005</label></div>
+<div class="question"><h3>2. What café is Cinnamoroll's home?</h3><label><input type="radio" name="q2" value="Cafe Kitty"> Cafe Kitty</label><label><input type="radio" name="q2" value="Cafe Cinnamon"> Cafe Cinnamon</label><label><input type="radio" name="q2" value="Cloud Coffee"> Cloud Coffee</label></div>
+<div class="question"><h3>3. What does Cinnamoroll use to fly?</h3><label><input type="radio" name="q3" value="ears"> His ears</label><label><input type="radio" name="q3" value="tail"> His tail</label><label><input type="radio" name="q3" value="wings"> Wings</label></div>
+<div class="question"><h3>4. Which personality description fits Cinnamoroll?</h3><label><input type="radio" name="q4" value="shy"> Shy but friendly</label><label><input type="radio" name="q4" value="loud"> Loud and aggressive</label><label><input type="radio" name="q4" value="serious"> Serious and strict</label></div>
+<button class="btn btn-primary" type="submit">Check My Score ☁</button>
+<div class="result" id="quizResult" role="status" aria-live="polite"></div>
+</form>
+</section>
+</main>
+<footer class="site-footer"><div class="footer-inner"><div><strong>CinnaCloud ☁</strong><p class="footer-small">A Cinnamoroll information website</p></div><div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Gallery</a></div><p class="footer-small">© <span id="year"></span> Bielkah Louisse Balobalo</p></div></footer><script src="script.js"></script></body></html>
